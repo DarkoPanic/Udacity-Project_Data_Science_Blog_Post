@@ -1,5 +1,15 @@
 # README: Udacity-Project_Data_Science_Blog_Post
 ## Installation 
+This project is implemented in **Python** and relies exclusively on **scikit-learn (version 1.6.1)** and standard data science libraries.
+### Requirements
+- Python ≥ 3.10  
+- scikit-learn == 1.6.1  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- shap (for explainability)
+
 ## Project Motivation
 Compensation in software engineering is influenced by many factors such as experience, role, industry, organization size, and geography.
 However, which of these factors matter most, and how predictable compensation actually is, remains an open question.

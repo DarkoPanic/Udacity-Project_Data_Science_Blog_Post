@@ -44,9 +44,9 @@ Official questionnaire and survey instrument for the Stack Overflow Developer Su
 The document describes the full survey structure, question wording, answer options, and thematic sections (e.g., Learning and Career, Tech and Tech Culture, Community, AI).  
 It is included for **contextual understanding only** and is **not used for feature generation or modeling**.
 ### bq1_pred_vs_actual/
-Automatically generated output folder containing Predicted vs. Actual plots for Ridge and Gradient Boosting models.
+Automatically generated output folder (by SO_CountryRegion_CRISPDM.ipynb) containing Predicted vs. Actual plots for Ridge and Gradient Boosting models.
 ### bq1_shap_plots/
-Automatically generated output folder containing SHAP summary and feature-importance plots aggregated to original survey features.
+Automatically generated output folder (by SO_CountryRegion_CRISPDM.ipynb) containing SHAP summary and feature-importance plots aggregated to original survey features.
 ### README.md
 Project documentation (this file).
 

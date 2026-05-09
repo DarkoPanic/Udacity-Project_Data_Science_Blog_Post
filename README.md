@@ -44,5 +44,38 @@ Folder containing SHAP summary and feature-importance plots aggregated back to o
 Project documentation (this file).
 
 ## Summary Of The Results Of The Analysis
+### Model Performance
+Compensation is only moderately predictable using survey features alone.
+Best performance (after robust trimming of extreme values):
+USA: R² ≈ 0.28
+Germany: R² ≈ 0.37
+Non-linear models consistently outperform linear baselines, but the improvement is modest.
+
+### Ridge vs. Histogram Gradient Boosting
+Ridge Regression provides a strong, stable linear baseline and handles high-dimensional one-hot encoded features well.
+Histogram Gradient Boosting Regressor (HGBR) captures non-linear effects and feature interactions (e.g., experience saturation, role × industry interactions).
+HGBR achieves slightly better R² and RMSE in both countries.
+
+### Key Drivers (SHAP Analysis)
+Across both countries, work experience is the most influential factor.
+Additional important drivers differ by country:
+
+USA: Industry, developer role, organization size
+Germany: Organization size, structured role definitions, education-related features
+
+SHAP analysis shows that compensation is driven by combinations of features, not single variables in isolation.
+
+### Interpretation
+Survey features explain part of compensation differences, but a large share remains unexplained.
+Factors such as company-specific pay bands, negotiation, equity, bonuses, and fine-grained location effects are not captured in the dataset.
 
 ## Licensing, Authors, Acknowledgements
+### License
+This project is released under the MIT License.
+### Author
+Darko Panic, Dr.-Ing.
+### Acknowledgements
+Stack Overflow for making the Developer Survey 2025 publicly available.
+The open-source Python and scikit-learn communities.
+SHAP for providing state-of-the-art model explainability tools.
+The survey structure and variable context are based on the official Stack Overflow Developer Survey 2025 questionnaire/tool.

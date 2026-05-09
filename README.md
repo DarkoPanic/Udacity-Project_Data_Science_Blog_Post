@@ -43,13 +43,10 @@ This file provides metadata such as column names, descriptions, and intended mea
 Official questionnaire and survey instrument for the Stack Overflow Developer Survey 2025.  
 The document describes the full survey structure, question wording, answer options, and thematic sections (e.g., Learning and Career, Tech and Tech Culture, Community, AI).  
 It is included for **contextual understanding only** and is **not used for feature generation or modeling**.
-
 ### bq1_pred_vs_actual/
-This Folder will created by the Program SO_CountryRegion_CRISPDM.ipynb
-Folder containing Predicted vs. Actual plots for Ridge and Gradient Boosting models.
+Automatically generated output folder containing Predicted vs. Actual plots for Ridge and Gradient Boosting models.
 ### bq1_shap_plots/
-This Folder will created by the Program SO_CountryRegion_CRISPDM.ipynb
-Folder containing SHAP summary and feature-importance plots aggregated back to original survey features.
+Automatically generated output folder containing SHAP summary and feature-importance plots aggregated to original survey features.
 ### README.md
 Project documentation (this file).
 
